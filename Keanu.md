@@ -1,8 +1,8 @@
 ---
-title: Landing
+title: Keanu
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/images/pic07.jpg
+description: Where you can get pictures of Keanu, your favorite actor
+image: assets/images/Keanu.jpg
 nav-menu: true
 ---
 
