@@ -32,7 +32,22 @@
 
     {{ content }}
 
+    <section>
+        <div class="inner">
+            <div class="card" style="text-align: center; padding: 40px;">
+                <h4>Random Dog</h4>
+                <img
+                    id="dogImg"
+                    src="https://random.dog/98f859f0-1a12-4f52-8aae-c2864de3120c.jpg"
+                    alt="Random dog image"
+                >
+                <button id="btnDog">New Dog</button>
+            </div>
+        </div>
+    </section>
 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/buttonGen.js"></script>
     
 </body>
 
