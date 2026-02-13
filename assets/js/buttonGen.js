@@ -12,6 +12,14 @@ function newDog() {
     });
 }
 
+function newKeanu() {
+  const url = `https://placekeanu.com/480/360?cb=${Date.now()}`;
+  $("#keanuImg").attr("src", "");          // clear first
+  setTimeout(() => $("#keanuImg").attr("src", url), 10); // slight delay to ensure the image reloads, forces this to work idk WHY it work otherwise
+}
+
 $(function() {
   $("#btnDog").on("click", newDog);
+  $("#btnKeanu").on("click", newKeanu);
 });
+
