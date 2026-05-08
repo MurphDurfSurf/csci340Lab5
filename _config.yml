@@ -3,8 +3,8 @@ title: Keanu & Dogs
 subtitle: by Mason Murphy
 email: murphyma@hendrix.edu
 description: A website about Keanu Reeves and dogs, built with the Forty Jekyll theme.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+baseurl: "/csci340lab5" # the subpath of your site, e.g. /blog
+url: "https://murphdurfsurf.github.io" # the base hostname & protocol for your site
 author: Mason Murphy
 street_address: 1234 Somewhere Road
 city: Conway
